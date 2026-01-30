@@ -1,0 +1,12 @@
+Achados da Análise Exploratória de Dados:
+
+Número total de colunas: 2094
+Número de linhas: 62
+Colunas com variância zero (irrelevantes): []
+Colunas duplicadas (redundantes): []
+Coluna com menor variância (não zero): 1864 (variância = 0.061465150713907984)
+
+Justificativa para remoção:
+Colunas com variância zero não fornecem informação para o modelo.
+Colunas duplicadas podem causar multicolinearidade e devem ser removidas.
+Colunas com variância muito baixa podem contribuir pouco para o modelo e ser candidatas à remoção.

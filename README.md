@@ -10,3 +10,5 @@ Este repositório contém diversos projetos desenvolvidos durante o curso de Eng
 - **[perceptron]**: Implementação fundamental de uma rede neural Perceptron em C.
 - **[simulacao_de_cames]**: Simulação mecânica e geração de diagramas de pressão para cames.
 - **[site_etech]**: Desenvolvimento web para o site da E-Tech.
+- **[anonimus_classification]**: Classificação de dados e testes de baseline.
+- **[cinematica_robo]**: Cálculos de cinemática e torque para manipuladores robóticos.

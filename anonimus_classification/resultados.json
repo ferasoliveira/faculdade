@@ -1,0 +1,1274 @@
+{
+    "00": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.1,
+            "alpha": 0.3448275862068965,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 1.0
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 1,
+            "kernel": "rbf",
+            "gamma": "scale",
+            "accuracy": 0.9230769230769231
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 300,
+            "max_depth": "None",
+            "min_samples_split": 10,
+            "accuracy": 0.9230769230769231
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 200,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.9230769230769231
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 7,
+            "weights": "uniform",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.9230769230769231
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "squared_hinge",
+            "penalty": "l2",
+            "accuracy": 1.0
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 5,
+            "accuracy": 0.8461538461538461
+        }
+    },
+    "01": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.1,
+            "alpha": 0.23255813953488372,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 1.0
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 1.0
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 300,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 1.0
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 1.0
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 1.0
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 0.9473684210526315
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 1.0
+        }
+    },
+    "02": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.1,
+            "alpha": 0.23255813953488372,
+            "penalty": "elasticnet",
+            "l1_ratio": 0.15,
+            "accuracy": 0.9473684210526315
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.9473684210526315
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 200,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.9473684210526315
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 100,
+            "max_depth": "None",
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "accuracy": 0.9473684210526315
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 7,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 0.9473684210526315
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 0.9473684210526315
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.9473684210526315
+        }
+    },
+    "03": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 20.0,
+            "penalty": "elasticnet",
+            "l1_ratio": 0.15,
+            "accuracy": 1.0
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 1.0
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 1.0
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 1.0
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 3,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 1.0
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 1.0
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 1.0
+        }
+    },
+    "04": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 20.0,
+            "penalty": "elasticnet",
+            "l1_ratio": 0.15,
+            "accuracy": 0.9545454545454546
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.9545454545454546
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.9545454545454546
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.9545454545454546
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 3,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 0.9545454545454546
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 0.9545454545454546
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "LogisticRegression",
+            "cv": 3,
+            "accuracy": 0.9545454545454546
+        }
+    },
+    "05": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 1,
+            "alpha": 0.007042253521126761,
+            "penalty": "elasticnet",
+            "l1_ratio": 0.5,
+            "accuracy": 0.9180327868852459
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.9016393442622951
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.9508196721311475
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "accuracy": 0.9508196721311475
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 3,
+            "weights": "uniform",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.9180327868852459
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 10,
+            "loss": "squared_hinge",
+            "penalty": "l1",
+            "accuracy": 0.9508196721311475
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.9016393442622951
+        }
+    },
+    "06": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.1,
+            "alpha": 0.3846153846153846,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.9166666666666666
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.9166666666666666
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 20,
+            "accuracy": 0.75
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.9166666666666666
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 15,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 1.0
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 10,
+            "loss": "squared_hinge",
+            "penalty": "l1",
+            "accuracy": 0.9166666666666666
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.6666666666666666
+        }
+    },
+    "07": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.1,
+            "alpha": 0.2857142857142857,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.8666666666666667
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.8666666666666667
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.8666666666666667
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.8666666666666667
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 0.8666666666666667
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.1,
+            "loss": "squared_hinge",
+            "penalty": "l1",
+            "accuracy": 0.8
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.8666666666666667
+        }
+    },
+    "08": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.01,
+            "alpha": 0.8,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.9814814814814815
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 1,
+            "kernel": "rbf",
+            "gamma": "scale",
+            "accuracy": 1.0
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 1.0
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 1.0
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 3,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 0.9814814814814815
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "squared_hinge",
+            "penalty": "l2",
+            "accuracy": 0.9814814814814815
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "LogisticRegression",
+            "cv": 3,
+            "accuracy": 1.0
+        }
+    },
+    "09": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 13.888888888888888,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.96875
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.96875
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.9375
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.96875
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 0.96875
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 0.96875
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 5,
+            "accuracy": 0.96875
+        }
+    },
+    "10": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 35.714285714285715,
+            "penalty": "elasticnet",
+            "l1_ratio": 0.15,
+            "accuracy": 0.9166666666666666
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 1,
+            "kernel": "rbf",
+            "gamma": "scale",
+            "accuracy": 0.75
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 500,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.9166666666666666
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.9166666666666666
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 3,
+            "weights": "uniform",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.75
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "squared_hinge",
+            "penalty": "l1",
+            "accuracy": 0.8333333333333334
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 5,
+            "accuracy": 0.8333333333333334
+        }
+    },
+    "11": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 21.73913043478261,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.95
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 1,
+            "kernel": "sigmoid",
+            "gamma": 0.001,
+            "accuracy": 0.9
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.8
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.8
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 5,
+            "weights": "distance",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.85
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.1,
+            "loss": "squared_hinge",
+            "penalty": "l1",
+            "accuracy": 0.9
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "LogisticRegression",
+            "cv": 5,
+            "accuracy": 0.8
+        }
+    },
+    "12": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 20.0,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 1.0
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 1.0
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.9545454545454546
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 2,
+            "accuracy": 1.0
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.9545454545454546
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 1.0
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "LogisticRegression",
+            "cv": 3,
+            "accuracy": 1.0
+        }
+    },
+    "13": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 20.0,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 1.0
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 1.0
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 10,
+            "accuracy": 1.0
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.9545454545454546
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 7,
+            "weights": "uniform",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.9090909090909091
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 1.0
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 1.0
+        }
+    },
+    "14": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 10,
+            "alpha": 0.0007936507936507937,
+            "penalty": "l1",
+            "l1_ratio": null,
+            "accuracy": 1.0
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.9818181818181818
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 1.0
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 1.0
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.9818181818181818
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 1,
+            "loss": "squared_hinge",
+            "penalty": "l1",
+            "accuracy": 1.0
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.9818181818181818
+        }
+    },
+    "15": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 17.241379310344826,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 1.0
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 1.0
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 1.0
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 2,
+            "accuracy": 1.0
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 1.0
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 1.0
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "LogisticRegression",
+            "cv": 3,
+            "accuracy": 1.0
+        }
+    },
+    "16": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 40.0,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.9166666666666666
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.75
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 10,
+            "accuracy": 0.8333333333333334
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.75
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 5,
+            "weights": "uniform",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.9166666666666666
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 0.8333333333333334
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.8333333333333334
+        }
+    },
+    "17": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.1,
+            "alpha": 0.20833333333333331,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.9523809523809523
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 10,
+            "kernel": "sigmoid",
+            "gamma": "scale",
+            "accuracy": 0.8095238095238095
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.8571428571428571
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 5,
+            "min_samples_leaf": 2,
+            "accuracy": 0.9047619047619048
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 5,
+            "weights": "distance",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.8571428571428571
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "squared_hinge",
+            "penalty": "l2",
+            "accuracy": 0.8571428571428571
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 5,
+            "accuracy": 0.9047619047619048
+        }
+    },
+    "18": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.01,
+            "alpha": 1.2987012987012987,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.8484848484848485
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 10,
+            "kernel": "sigmoid",
+            "gamma": "scale",
+            "accuracy": 0.8181818181818182
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 300,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.8181818181818182
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 100,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.8181818181818182
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 5,
+            "weights": "distance",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.7575757575757576
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 1,
+            "loss": "squared_hinge",
+            "penalty": "l1",
+            "accuracy": 0.8181818181818182
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.9090909090909091
+        }
+    },
+    "19": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.01,
+            "alpha": 4.0,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 1.0
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 1.0
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.9166666666666666
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.9166666666666666
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 0.9166666666666666
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.01,
+            "loss": "squared_hinge",
+            "penalty": "l2",
+            "accuracy": 1.0
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.9166666666666666
+        }
+    },
+    "20": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 1,
+            "alpha": 0.02857142857142857,
+            "penalty": "elasticnet",
+            "l1_ratio": 0.85,
+            "accuracy": 0.6
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.8666666666666667
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 10,
+            "accuracy": 0.8
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 5,
+            "min_samples_leaf": 1,
+            "accuracy": 0.8666666666666667
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 9,
+            "weights": "uniform",
+            "metric": "manhattan",
+            "p": null,
+            "accuracy": 0.8
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 0.5333333333333333
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.8
+        }
+    },
+    "21": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 52.631578947368425,
+            "penalty": "elasticnet",
+            "l1_ratio": 0.15,
+            "accuracy": 0.6666666666666666
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 1,
+            "kernel": "rbf",
+            "gamma": "scale",
+            "accuracy": 1.0
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 10,
+            "accuracy": 0.7777777777777778
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 4,
+            "accuracy": 0.8888888888888888
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 0.7777777777777778
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 0.5555555555555556
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.8888888888888888
+        }
+    },
+    "22": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 66.66666666666667,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.7142857142857143
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 1.0
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 1.0
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 1.0
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 0.7142857142857143
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 0.5714285714285714
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 1.0
+        }
+    },
+    "23": {
+        "SGDClassifier": {
+            "tecnica": "SGDClassifier",
+            "C": 0.001,
+            "alpha": 43.47826086956522,
+            "penalty": "l2",
+            "l1_ratio": null,
+            "accuracy": 0.9090909090909091
+        },
+        "SVC": {
+            "tecnica": "SVC",
+            "C": 0.01,
+            "kernel": "linear",
+            "gamma": "scale",
+            "accuracy": 0.9090909090909091
+        },
+        "RandomForestClassifier": {
+            "tecnica": "RandomForestClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "accuracy": 0.7272727272727273
+        },
+        "ExtraTreesClassifier": {
+            "tecnica": "ExtraTreesClassifier",
+            "n_estimators": 50,
+            "max_depth": "None",
+            "min_samples_split": 2,
+            "min_samples_leaf": 1,
+            "accuracy": 0.7272727272727273
+        },
+        "KNeighborsClassifier": {
+            "tecnica": "KNeighborsClassifier",
+            "n_neighbors": 1,
+            "weights": "uniform",
+            "metric": "euclidean",
+            "p": null,
+            "accuracy": 0.9090909090909091
+        },
+        "LinearSVC": {
+            "tecnica": "LinearSVC",
+            "C": 0.001,
+            "loss": "hinge",
+            "penalty": "l2",
+            "accuracy": 0.9090909090909091
+        },
+        "StackingClassifier": {
+            "tecnica": "StackingClassifier",
+            "meta_estimator": "RandomForestClassifier",
+            "cv": 3,
+            "accuracy": 0.8181818181818182
+        }
+    }
+}
