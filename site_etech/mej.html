@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETECH Jr. & MEJ</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_mej.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="#">
+        <image src="css/imagens/logo_t_branco.png" class="logo_t"></image>
+      </a>
+      <div class="menu">
+        <a href="#" class="menu">MENU</a>
+      </div>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html">QUEM SOMOS?</a></li>
+        <li><a href="servicos.html">SERVIÇOS</a></li>
+        <li><a href="projetos.html">PROJETOS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+        <li><a href="mej.html">MEJ</a></li>
+      </ul>
+    </nav>
+    <script src="javascript/mobile-navbar.js"></script>
+  </header>
+  <div class="logo_home2">
+    <img src="css/imagens/logo_etech_branco.png" class="logo_etech2">
+  </div>
+  <p class="meji">& MEJ</p>
+  <div class="bloco_texto">
+    <p class="titulo1_mej">Mas o que é o MEJ?</p>
+    <p class="texto1_mej">Texto Introdutório sobre o MEJ. Texto Introdutório sobre o MEJ. Texto Introdutório sobre o
+      MEJ. Texto Introdutório sobre o MEJ. Texto Introdutório sobre o MEJ Texto Introdutório sobre o MEJ Texto
+      Introdutório sobre o MEJ Texto Introdutório sobre o MEJ Texto Introdutório sobre o MEJ Texto Introdutório sobre o
+      MEJ.</p>
+    <p class="titulo2_mej">ETECH & MEJ</p>
+    <p class="texto2_mej">Texto sobre a conexão e os valores MEJ na ETECH.
+      Texto sobre a conexão e os valores MEJ na ETECH.Texto sobre a conexão e os valores MEJ na ETECH.Texto sobre a
+      conexão e os valores MEJ na ETECH.Texto sobre a conexão e os valores MEJ na ETECH.Texto sobre a conexão e os
+      valores MEJ na ETECH.Texto sobre a conexão e os valores MEJ na ETECH.Texto sobre a conexão e os valores MEJ na
+      ETECH.
+      Texto sobre a conexão e os valores MEJ na ETECH.</p>
+  </div>
+  <div id="toggle">
+    <i class="indicator"></i>
+  </div>
+  <script>
+    const toggle = document.getElementById('toggle');
+    const foto1 = document.getElementById('foto_mej');
+    const foto2 = document.getElementById('foto_mej2');
+    const barra1 = document.getElementsByClassName('bord_azul');
+    const barra2 = document.getElementsByClassName('bord_azul2');
+    toggle.onclick = function () {
+      toggle.classList.toggle('active');
+      foto_mej.classList.toggle('active');
+      foto_mej2.classList.toggle('active');
+      bord_azul.classList.toggle('active');
+      bord_azul2.classList.toggle('active');
+    }
+  </script>
+  <div>
+    <div id="bord_azul"></div>
+    <img src="css/imagens/foto_quem_somos.png" id="foto_mej">
+  </div>
+  <div>
+    <div id="bord_azul2"></div>
+    <img src="css/imagens/foto_quem_somos.png" id="foto_mej2">
+  </div>
+
+
+  <div class="rodape_mej">
+    <div>
+      <p class="linha_rdp_mej"></p>
+    </div>
+    <div class="icons">
+      <a href="https://www.instagram.com/etechjr/" target="_blank">
+        <img src="css/imagens/ig_icon.png" class="ig_icon">
+      </a>
+      <a href="https://www.linkedin.com/in/etech-jr-135b39240" target="_blank">
+        <img src="css/imagens/li_icon.png" class="li_icon">
+      </a>
+      <a href="contato.html">
+        <img src="css/imagens/email_icon.png" class="email_icon">
+      </a>
+      <a href="contato.html">
+        <img src="css/imagens/wpp_icon.png" class="wpp_icon">
+      </a>
+      <a href="contato.html">
+        <img src="css/imagens/loc_icon.png" class="loc_icon">
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>

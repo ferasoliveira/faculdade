@@ -1,0 +1,392 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #101010;
+}
+
+/*---- Menu -------*/
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  opacity: 0.9;
+}
+
+img.logo_t {
+  position: absolute;
+  top: 3%;
+  left: 8%;
+  height: 5vh;
+}
+
+div.menu {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  font-size: 18px;
+  height: 22px;
+  top: 3.5%;
+  right: 11%;
+  color: white;
+}
+
+
+nav {
+  display: flex;
+  padding-right: 100px;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Barlow', sans-serif;
+  background: #101010;
+  height: 8vh;
+  font-size: 22px;
+}
+
+main {
+  background: #101010;
+  background-size: cover;
+  height: 92vh;
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  letter-spacing: 1.5px;
+  margin-left: 32px;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 2%;
+  right: 6%;
+  cursor: pointer;
+}
+
+.mobile-menu div {
+  width: 32px;
+  height: 2px;
+  background: #fff;
+  margin: 8px;
+  transition: 0.3s;
+}
+
+@media (max-width: 99999999px) {
+
+  body {
+    overflow-x: hidden;
+  }
+
+  .nav-list {
+    position: absolute;
+    z-index: 1;
+    text-align: center;
+    display: none;
+    top: 8vh;
+    right: 75px;
+    background: #101010;
+    width: 11vw;
+    height: 70vh;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .nav-list li {
+    margin-left: 0;
+    opacity: 0;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+}
+
+.nav-list.active {
+  display: flex;
+  transform: translateX(0);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.mobile-menu.active .line1 {
+  transform: rotate(-45deg) translate(-8px, 8px);
+}
+
+.mobile-menu.active .line2 {
+  opacity: 0;
+}
+
+.mobile-menu.active .line3 {
+  transform: rotate(45deg) translate(-5px, -7px);
+}
+
+li:after {
+  display: block;
+  content: '';
+  border-bottom: solid 1px #00c7ff;
+  padding-bottom: 4px;
+  transform: scaleX(0);
+  transition: transform 300ms ease-in-out;
+}
+
+li:hover:after {
+  transform: scaleX(1);
+}
+
+/*----Logo Central----------*/
+
+div.logo_home {
+  width: 100%;
+  position: absolute;
+  top: 46%;
+  margin-bottom: 0;
+}
+
+img.logo_etech {
+  width: 55%;
+  margin-left: 22%;
+}
+
+/*------ QUEM SOMOS? ----------------*/
+
+div.quem_somos {
+  background-color: #151515;
+  position: relative;
+  height: 700px;
+  top: -40px;
+}
+
+div.borda_azul {
+  height: 280px;
+  position: relative;
+  top: 210px;
+  left: calc(24.6% - 100px);
+  width: 10px;
+  background-color: #00c7ff;
+}
+
+img.foto_quem_somos {
+  position: absolute;
+  height: 280px;
+  top: 210px;
+  margin-left: calc(25.2% - 100px);
+  filter: grayscale(100%);
+}
+
+p.titulo_quem {
+  position: absolute;
+  color: white;
+  height: 280px;
+  top: 210px;
+  margin-left: 50%;
+  font-size: 34px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+p.texto_quem {
+  position: absolute;
+  color: white;
+  height: 270px;
+  top: 280px;
+  margin-left: 50%;
+  margin-right: 16%;
+  font-size: 20px;
+  letter-spacing: 1.5px;
+  font-family: 'Barlow', sans-serif;
+}
+
+/*-------------- Scroll Bar -------------*/
+::-webkit-scrollbar {
+  width: 13px;
+}
+
+::-webkit-scrollbar-track {
+  background: #101010;
+  transition: background-color 2s;
+}
+
+::-webkit-scrollbar-thumb {
+  background: white;
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00c7ff;
+}
+
+/*--------- Servicos ----------*/
+
+div.servicos {
+  height: 550px;
+  background-color: pink;
+}
+
+/*--------- RODAPE ----------*/
+
+div.rodape {
+  height: 160px;
+}
+
+p.linha_rdp {
+  position: relative;
+  width: 90%;
+  left: 5%;
+  margin-block: 40px;
+  background-color: white;
+  height: 1px;
+}
+
+div.icons {
+  margin-top: 50px;
+  width: 100%;
+  margin-inline: calc(25.2% - 70px);
+  display: flex;
+}
+
+.icons a {
+  padding-inline: 5%;
+
+}
+
+/* Tabletes : 481 - 768 --------- */
+@media (max-width: 768px) {
+
+  /* Menu ------------- */
+
+  img.logo_t {
+    display: none;
+  }
+
+  nav {
+    padding-right: 50px;
+    padding-top: 10px;
+  }
+
+  .nav-list {
+    right: 0px;
+    width: 100%;
+  }
+
+  div.menu {
+    display: none;
+  }
+
+  div.logo_home {
+    width: 100%;
+    position: absolute;
+    top: 340px;
+    margin-bottom: 0;
+  }
+
+  img.logo_etech {
+    width: 75%;
+    margin-left: 13%;
+  }
+
+  /* Quem Somos -------- */
+
+  div.quem_somos {
+    height: 650px;
+    width: 100%;
+    text-align: center;
+  }
+
+  div.borda_azul {
+    display: none;
+  }
+
+  img.foto_quem_somos {
+    height: 250px;
+    top: 340px;
+    margin: 0%;
+    position: relative;
+  }
+
+  p.titulo_quem {
+    top: 75px;
+    width: 100%;
+    margin-left: 0%;
+    text-align: center;
+    font-size: 25px;
+  }
+
+  p.texto_quem {
+    top: 140px;
+    margin-left: 0%;
+    width: 70%;
+    padding-inline: 15%;
+    text-align: center;
+    font-size: 14px;
+  }
+
+  /* Barra de scroll */
+
+  ::-webkit-scrollbar {
+    width: 11px;
+  }
+
+  /* Rodapé ----------- */
+
+  div.icons {
+    width: 100%;
+    margin-inline: calc(25.2% - 70px);
+    display: flex;
+  }
+
+  .icons a {
+    padding-inline: 5%;
+  }
+}
+
+/* Celulares : 320 - 480 --------- */
+@media (max-width: 480px) {
+
+  /* Quem Somos -------- */
+
+  div.quem_somos {
+    height: 620px;
+  }
+
+  img.foto_quem_somos {
+    height: 28%;
+    top: 370px;
+  }
+
+  p.texto_quem {
+    font-size: 12px;
+    top: 145px;
+  }
+
+
+  /* Rodapé ----------- */
+
+  div.icons {
+    width: 100%;
+    display: flex;
+  }
+}

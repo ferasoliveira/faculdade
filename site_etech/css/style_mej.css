@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+/*------ Logo ETECH & MEJ --------------*/
+div.logo_home2 {
+  width: 100%;
+  position: absolute;
+  top: 270px;
+  margin-bottom: 0;
+}
+
+img.logo_etech2 {
+  width: 55%;
+  margin-left: 22%;
+}
+
+p.meji {
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  font-size: 120px;
+  height: 200px;
+  top: 415px;
+  right: 220px;
+  color: white;
+}
+
+/*----------------  Bloco de texto - MEJ -------------*/
+
+div.bloco_texto {
+  position: relative;
+  top: 640px;
+  background-color: #151515;
+  height: 610px;
+}
+
+p.titulo1_mej {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 90px;
+  margin-left: 230px;
+  font-size: 50px;
+}
+
+p.texto1_mej {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 190px;
+  margin-left: 235px;
+  margin-right: 55%;
+  font-size: 16px;
+}
+
+p.titulo2_mej {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 270px;
+  right: 230px;
+  font-size: 50px;
+}
+
+p.texto2_mej {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  position: absolute;
+  margin-top: 370px;
+  margin-left: 730px;
+  text-align: right;
+  right: 235px;
+  font-size: 16px;
+}
+
+/*--------------- Imagens MEJ -----------------*/
+
+#foto_mej {
+  position: absolute;
+  top: 1400px;
+  left: 280px;
+  height: 300px;
+  filter: grayscale();
+  transition: 1s ease-in-out;
+
+}
+
+#foto_mej.active {
+
+  filter: none;
+  transition-delay: 1s;
+}
+
+#bord_azul {
+  height: 300px;
+  position: relative;
+  top: 680px;
+  left: 275px;
+  width: 5px;
+  transition: 1s ease-in-out;
+  background-color: white;
+}
+
+#bord_azul.active {
+  background-color: #00c7ff;
+}
+
+#foto_mej2 {
+  position: relative;
+  top: 80px;
+  left: 790px;
+  height: 400px;
+  filter: grayscale();
+  transition: 1s ease-in-out;
+}
+
+#foto_mej2.active {
+  transition-delay: 1s;
+  filter: none;
+}
+
+#bord_azul2 {
+  height: 400px;
+  position: relative;
+  top: 480px;
+  left: 785px;
+  width: 5px;
+  transition: 1s ease-in-out;
+  background-color: white;
+}
+
+#bord_azul2.active {
+  background-color: #00c7ff;
+}
+
+#toggle {
+  position: relative;
+  display: block;
+  top: 1120px;
+  left: 400px;
+  width: 100px;
+  height: 50px;
+  border-radius: 50px;
+  background: #ffffffbd;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#toggle .indicator {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to bottom, #444, #222);
+  border-radius: 50%;
+  transition: 0.5s;
+  transform: scale(0.9);
+}
+
+#toggle.active {
+  background: #00c7ff;
+}
+
+#toggle.active .indicator {
+  left: 50px;
+}
+
+div.rodape_mej {
+  position: absolute;
+  top: 260%;
+  width: 100%;
+  height: 20%;
+}
+
+p.linha_rdp_mej {
+  position: absolute;
+  width: auto;
+  left: 5%;
+  right: 5%;
+  top: 40px;
+  background-color: white;
+  height: 1px;
+}
+
+div.icons {
+  position: relative;
+}

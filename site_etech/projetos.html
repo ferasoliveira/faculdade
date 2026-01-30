@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ETECH Jr. Projetos</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style_projetos.css">
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a class="logo" href="#">
+        <image src="css/imagens/logo_t_branco.png" class="logo_t"></image>
+      </a>
+      <div class="menu">
+        <a href="#" class="menu">MENU</a>
+      </div>
+      <div class="mobile-menu">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+      <ul class="nav-list">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="index.html">QUEM SOMOS?</a></li>
+        <li><a href="servicos.html">SERVIÇOS</a></li>
+        <li><a href="projetos.html">PROJETOS</a></li>
+        <li><a href="contato.html">CONTATO</a></li>
+        <li><a href="mej.html">MEJ</a></li>
+      </ul>
+    </nav>
+    <script src="javascript/mobile-navbar.js"></script>
+  </header>
+  <div class="logo_home">
+    <img src="css/imagens/logo_etech_branco.png" class="logo_etech">
+    <p class="projetos_home">PROJETOS</p>
+  </div>
+  <div class="intro_div">
+    <p class="intro_texto">Clique em uma foto e conheça um pouco mais sobre os principais projetos desenvolvidos por
+      nossa empresa</p>
+    <p class="linha_intro"></p>
+  </div>
+  <div>
+    <div id="toggle1">
+      <img src="css/imagens/projeto_1.jpg" id="ft1">
+    </div>
+    <div id="toggle2">
+      <img src="css/imagens/projeto_2.jpg" id="ft2">
+    </div>
+    <div id="toggle3">
+      <img src="css/imagens/projeto_3.jpg" id="ft3">
+    </div>
+    <div id="toggle4">
+      <img src="css/imagens/projeto_4.jpg" id="ft4">
+    </div>
+  </div>
+
+  <div>
+    <img src="css/imagens/projeto_1.jpg" id="foto_1">
+    <p id="txt1">Texto projeto 1, Texto projeto 1, Texto projeto 1, Texto projeto 1, Texto projeto 1, Texto projeto 1
+      Texto projeto 1, Texto projeto 1, Texto projeto 1, Texto projeto 1, Texto projeto 1, Texto projeto 1
+    </p>
+    <img src="css/imagens/projeto_2.jpg" id="foto_2">
+    <p id="txt2">Texto projeto 2 Texto projeto 2 Texto projeto 2 Texto projeto 2Texto projeto 2Texto projeto 2Texto
+      projeto 2Texto projeto 2Texto projeto 2 Texto projeto 2 Texto projeto 2 Texto projeto 2
+    </p>
+    <img src="css/imagens/projeto_3.jpg" id="foto_3">
+    <p id="txt3">Texto projeto 3, Texto projeto 3, Texto projeto 3, Texto projeto 3, Texto projeto 3, Texto projeto 3,
+      Texto projeto 3, Texto projeto 3, Texto projeto 3, Texto projeto 3, Texto projeto 3,
+    </p>
+    <img src="css/imagens/projeto_4.jpg" id="foto_4">
+    <p id="txt4">Texto projeto 4, Texto projeto 4, Texto projeto 4, Texto projeto 4, Texto projeto 4, Texto projeto 4,
+      Texto projeto 4, Texto projeto 4, Texto projeto 4, Texto projeto 4, Texto projeto 4,
+    </p>
+  </div>
+  <script>
+    const toggle_1 = document.getElementById('toggle1');
+    const toggle_2 = document.getElementById('toggle2');
+    const toggle_3 = document.getElementById('toggle3');
+    const toggle_4 = document.getElementById('toggle4');
+    var fto1 = document.getElementById("foto_1");
+    var text1 = document.getElementById("txt1");
+    var fto2 = document.getElementById("foto_2");
+    var text2 = document.getElementById("txt2");
+    var fto3 = document.getElementById("foto_3");
+    var text3 = document.getElementById("txt3");
+    var fto4 = document.getElementById("foto_4");
+    var text4 = document.getElementById("txt4");
+    toggle_1.onclick = function () {
+      toggle1.classList.toggle('active');
+      ft1.classList.toggle('active');
+      toggle2.classList.remove('active');
+      ft2.classList.remove('active');
+      toggle3.classList.remove('active');
+      ft3.classList.remove('active');
+      toggle4.classList.remove('active');
+      ft4.classList.remove('active');
+      fto1.style.display = "block";
+      text1.style.display = "block";
+      fto2.style.display = "none";
+      text2.style.display = "none";
+      fto3.style.display = "none";
+      text3.style.display = "none";
+      fto4.style.display = "none";
+      text4.style.display = "none";
+    }
+    toggle_2.onclick = function () {
+      toggle2.classList.toggle('active');
+      ft2.classList.toggle('active');
+      toggle1.classList.remove('active');
+      ft1.classList.remove('active');
+      toggle3.classList.remove('active');
+      ft3.classList.remove('active');
+      toggle4.classList.remove('active');
+      ft4.classList.remove('active');
+      fto2.style.display = "block";
+      text2.style.display = "block";
+      fto1.style.display = "none";
+      text1.style.display = "none";
+      fto3.style.display = "none";
+      text3.style.display = "none";
+      fto4.style.display = "none";
+      text4.style.display = "none";
+    }
+    toggle_3.onclick = function () {
+      toggle3.classList.toggle('active');
+      ft3.classList.toggle('active');
+      toggle2.classList.remove('active');
+      ft2.classList.remove('active');
+      toggle1.classList.remove('active');
+      ft1.classList.remove('active');
+      toggle4.classList.remove('active');
+      ft4.classList.remove('active');
+      fto3.style.display = "block";
+      text3.style.display = "block";
+      fto2.style.display = "none";
+      text2.style.display = "none";
+      fto1.style.display = "none";
+      text1.style.display = "none";
+      fto4.style.display = "none";
+      text4.style.display = "none";
+    }
+    toggle_4.onclick = function () {
+      toggle4.classList.toggle('active');
+      ft4.classList.toggle('active');
+      toggle2.classList.remove('active');
+      ft2.classList.remove('active');
+      toggle3.classList.remove('active');
+      ft3.classList.remove('active');
+      toggle1.classList.remove('active');
+      ft1.classList.remove('active');
+      fto4.style.display = "block";
+      text4.style.display = "block";
+      fto2.style.display = "none";
+      text2.style.display = "none";
+      fto3.style.display = "none";
+      text3.style.display = "none";
+      fto1.style.display = "none";
+      text1.style.display = "none";
+    }
+  </script>
+
+  <div class="rodape_projetos">
+    <div>
+      <p class="linha_rdp_projetos"></p>
+    </div>
+    <div class="icons">
+      <a href="https://www.instagram.com/etechjr/" target="_blank">
+        <img src="css/imagens/ig_icon.png" class="ig_icon">
+      </a>
+      <a href="https://www.linkedin.com/in/etech-jr-135b39240" target="_blank">
+        <img src="css/imagens/li_icon.png" class="li_icon">
+      </a>
+      <a href="contato.html">
+        <img src="css/imagens/email_icon.png" class="email_icon">
+      </a>
+      <a href="contato.html">
+        <img src="css/imagens/wpp_icon.png" class="wpp_icon">
+      </a>
+      <a href="contato.html">
+        <img src="css/imagens/loc_icon.png" class="loc_icon">
+      </a>
+    </div>
+  </div>
+</body>
+
+</html>
